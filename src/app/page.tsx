@@ -1,7 +1,11 @@
+import { ThemeToggle } from '@/components/theme/ThemeToggle'
+
 export default function Home() {
   return (
     <main>
-      <h1>hello world</h1>
+      <div className="fixed bottom-4 right-4">
+        <ThemeToggle />
+      </div>
     </main>
   )
 }
