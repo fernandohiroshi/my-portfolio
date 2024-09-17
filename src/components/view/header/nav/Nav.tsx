@@ -15,7 +15,7 @@ export function Nav() {
   const [open, setOpen] = useState(false)
 
   return (
-    <motion.div animate={open ? 'open' : 'closed'} className="relative">
+    <motion.nav animate={open ? 'open' : 'closed'} className="relative">
       <Button
         onClick={() => setOpen((pv) => !pv)}
         className="flex items-center gap-2 rounded-md px-3 py-2 transition-colors"
@@ -33,12 +33,12 @@ export function Nav() {
         initial={wrapperVariants.closed}
         variants={wrapperVariants}
         style={{ originY: 'top', translateX: '-50%' }}
-        className="absolute left-5 top-[120%] flex w-32 flex-col gap-2 overflow-hidden rounded-lg bg-primary p-2 text-primary-foreground shadow-xl"
+        className="absolute left-5 top-[120%] flex w-32 flex-col gap-2 overflow-hidden rounded-lg bg-secondary p-2 text-primary shadow-xl"
       >
         <NavItem link="/#about" setOpen={setOpen} Icon={FaCircleUser} text="About" />
         <NavItem link="/project" setOpen={setOpen} Icon={IoIosCodeWorking} text="Projects" />
         <NavItem link="/#contact" setOpen={setOpen} Icon={IoIosMail} text="Contact" />
       </motion.ul>
-    </motion.div>
+    </motion.nav>
   )
 }
