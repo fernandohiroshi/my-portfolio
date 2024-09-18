@@ -1,4 +1,5 @@
 import { ThemeToggle } from '@/components/theme/ThemeToggle'
+import Animation from '@/components/view/animation/Animation'
 import Avatar from '@/components/view/avatar/Avatar'
 import Feature from '@/components/view/feature/Feature'
 
@@ -9,6 +10,7 @@ export default function Home() {
         <div className="mx-auto grid max-w-4xl grid-flow-dense grid-cols-12 gap-4">
           <Feature />
           <Avatar />
+          <Animation />
         </div>
       </main>
       <div className="fixed bottom-4 right-4">
