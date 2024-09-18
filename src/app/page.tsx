@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <main className="min-h-screen px-4">
-        <div className="mx-auto grid max-w-5xl grid-flow-dense grid-cols-12 gap-4">
+        <div className="mx-auto grid max-w-4xl grid-flow-dense grid-cols-12 gap-4">
           <Feature />
         </div>
       </main>
