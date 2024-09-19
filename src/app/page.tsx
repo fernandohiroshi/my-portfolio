@@ -1,4 +1,5 @@
 import { ThemeToggle } from '@/components/theme/ThemeToggle'
+import About from '@/components/view/about/About'
 import Animation from '@/components/view/animation/Animation'
 import Avatar from '@/components/view/avatar/Avatar'
 import Feature from '@/components/view/feature/Feature'
@@ -11,6 +12,7 @@ export default function Home() {
           <Feature />
           <Avatar />
           <Animation />
+          <About />
         </div>
       </main>
       <div className="fixed bottom-4 right-4">
