@@ -3,6 +3,7 @@ import About from '@/components/view/about/About'
 import Animation from '@/components/view/animation/Animation'
 import Avatar from '@/components/view/avatar/Avatar'
 import Feature from '@/components/view/feature/Feature'
+import ProjectButton from '@/components/view/projectButton/ProjectButton'
 import Skills from '@/components/view/skills/Skills'
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
           <Animation />
           <About />
           <Skills />
+          <ProjectButton />
         </div>
       </main>
       <div className="fixed bottom-4 right-4">
