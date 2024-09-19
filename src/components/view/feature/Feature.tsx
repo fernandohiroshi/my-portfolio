@@ -5,7 +5,7 @@ import Box from '../bento/Box'
 const Feature = () => {
   return (
     <Box className="col-span-12 flex flex-col justify-evenly md:col-span-8">
-      <h1 className="text-start text-3xl font-semibold md:text-4xl">
+      <h1 className="text-start text-2xl font-semibold md:text-4xl">
         <span className="text-pink-500">Hello,</span> my name is Hirøshi <br />
         <span className="text-purple-500">How</span> are you?
       </h1>
