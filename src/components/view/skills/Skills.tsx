@@ -8,7 +8,7 @@ import Box from '../bento/Box'
 const Skills = () => {
   return (
     <Box className="col-span-12 flex w-full items-center justify-center md:col-span-4">
-      <div className="grid grid-cols-3 gap-12">
+      <div className="grid grid-cols-3 gap-10">
         <a
           className="duration-500 ease-in-out hover:scale-125 hover:text-amber-500"
           href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
