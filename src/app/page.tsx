@@ -3,6 +3,8 @@ import About from '@/components/view/about/About'
 import Animation from '@/components/view/animation/Animation'
 import Avatar from '@/components/view/avatar/Avatar'
 import Feature from '@/components/view/feature/Feature'
+import { Form } from '@/components/view/footer/form/Form'
+import { Socials } from '@/components/view/footer/socials/Socials'
 import { Languages } from '@/components/view/languages/Languages'
 import ProjectButton from '@/components/view/projectButton/ProjectButton'
 import Skills from '@/components/view/skills/Skills'
@@ -19,6 +21,8 @@ export default function Home() {
           <Skills />
           <ProjectButton />
           <Languages />
+          <Socials />
+          <Form />
         </div>
       </main>
       <div className="fixed bottom-4 right-4">
