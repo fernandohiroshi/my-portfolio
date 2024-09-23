@@ -10,8 +10,7 @@ const Feature = () => {
         <span className="text-purple-500">How</span> are you?
       </h1>
       <a href="https://konbini-code.vercel.app/pt" target="_blank" className="text-start text-xs opacity-80 md:text-sm">
-        I create modern websites with unique designs at{' '}
-        <span className="animate-pulse font-medium underline">Konbini Web</span> .
+        I create modern websites with unique designs and underground!
       </a>
       <div className="flex items-center justify-end gap-4">
         <Button variant="outline">Github</Button>
