@@ -1,6 +1,7 @@
 import './globals.css'
 import { Raleway } from 'next/font/google'
 import { Metadata } from 'next/types'
+import { Toaster } from 'react-hot-toast'
 
 import { ThemeProvider } from '@/components/theme/provider'
 import { Header } from '@/components/view/header/Header'
@@ -27,6 +28,7 @@ export default function RootLayout({
           <Header />
           {children}
         </ThemeProvider>
+        <Toaster position="top-right" />
       </body>
     </html>
   )
