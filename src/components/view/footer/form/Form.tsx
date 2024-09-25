@@ -41,7 +41,7 @@ const Form: React.FC = () => {
       <form onSubmit={sendEmail} className="flex flex-col justify-between gap-3 text-sm">
         <div>
           <h2 className="mb-2 text-2xl font-medium tracking-widest text-amber-500 md:text-2xl">Contact Me</h2>
-          <p className="mb-2 text-justify text-xs text-foreground opacity-80 md:text-sm">
+          <p className="mb-2 text-justify text-xs text-foreground opacity-80 lg:text-sm">
             If you prefer, send me an email and share your ideas!
           </p>
         </div>
