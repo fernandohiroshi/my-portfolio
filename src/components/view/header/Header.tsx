@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
+import { ThemeToggle } from '@/components/theme/ThemeToggle'
+
 import { Nav } from './nav/Nav'
 
 export function Header() {
@@ -14,7 +16,10 @@ export function Header() {
           height={40}
         />
       </Link>
-      <Nav />
+      <div className="flex items-center gap-2">
+        <Nav />
+        <ThemeToggle />
+      </div>
     </header>
   )
 }
