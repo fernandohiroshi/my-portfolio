@@ -2,9 +2,9 @@ import Box from '../bento/Box'
 
 const About = () => {
   return (
-    <Box className="col-span-12 flex flex-col justify-evenly gap-4 duration-500 ease-in-out hover:text-amber-500 md:col-span-8 lg:gap-0">
+    <Box className="col-span-12 flex flex-col justify-evenly gap-4 md:col-span-8 lg:gap-0">
       <h2 className="text-xl font-medium tracking-widest md:text-2xl">About me:</h2>
-      <p className="text-justify text-xs text-foreground opacity-80 md:text-sm">
+      <p className="text-justify text-xs text-foreground opacity-80 lg:text-sm">
         Hello, I&apos;m Fernando Hiroshi, a web developer with over 3 years of experience, focused on front-end
         development with expertise in TypeScript, React, Next.js, and Tailwind CSS. I founded Konbini Web, a company
         that creates modern and unique websites with an emphasis on design and functionality.
