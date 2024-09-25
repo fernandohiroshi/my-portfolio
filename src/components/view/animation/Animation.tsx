@@ -11,6 +11,7 @@ const Animation = () => {
         width={600}
         height={600}
         className="h-full w-full animate-pulse object-cover object-center"
+        unoptimized
       />
     </Box>
   )
