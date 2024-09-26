@@ -6,7 +6,7 @@ import toast from 'react-hot-toast'
 
 import { Button } from '@/components/ui/shadcn/button'
 
-import Box from '../../bento/Box'
+import Box from '../bento/Box'
 
 const Form: React.FC = () => {
   const [name, setName] = useState<string>('')

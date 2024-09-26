@@ -5,7 +5,7 @@ import { ThemeToggle } from '@/components/theme/ThemeToggle'
 
 import { Nav } from './nav/Nav'
 
-export function Header() {
+const Header = () => {
   return (
     <header className="mx-auto flex max-w-4xl items-center justify-between px-4 py-4 lg:px-0">
       <Link href="/#" title="Home">
@@ -23,3 +23,5 @@ export function Header() {
     </header>
   )
 }
+
+export default Header

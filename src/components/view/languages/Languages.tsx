@@ -38,7 +38,7 @@ const chartConfig = {
   },
 } satisfies ChartConfig
 
-export function Languages() {
+const Languages = () => {
   return (
     <Box className="col-span-12 border-none md:col-span-4">
       <Card>
@@ -71,3 +71,5 @@ export function Languages() {
     </Box>
   )
 }
+
+export default Languages

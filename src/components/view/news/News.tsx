@@ -12,7 +12,7 @@ import {
   CarouselPrevious,
 } from '@/components/ui/shadcn/carousel'
 
-import Box from '../../bento/Box'
+import Box from '../bento/Box'
 
 const News = () => {
   const plugin = React.useRef(Autoplay({ delay: 2000, stopOnInteraction: false }))

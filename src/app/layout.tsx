@@ -4,7 +4,7 @@ import { Metadata } from 'next/types'
 import { Toaster } from 'react-hot-toast'
 
 import { ThemeProvider } from '@/components/theme/provider'
-import { Header } from '@/components/view/header/Header'
+import Header from '@/components/view/header/Header'
 
 const raleway = Raleway({ subsets: ['latin'] })
 
