@@ -22,6 +22,9 @@ export default function Home() {
         <News />
         <Form />
       </div>
+      <p className="mt-8 text-center text-sm opacity-80">
+        © {`${new Date().getFullYear()}`} Fernando Hiroshi. All rights reserved.
+      </p>
     </main>
   )
 }
