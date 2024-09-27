@@ -13,8 +13,16 @@ const Feature = () => {
         I create modern websites with unique designs and underground!
       </a>
       <div className="flex items-center justify-end gap-4">
-        <Button variant="outline">Github</Button>
-        <Button variant="outline">Linkedin</Button>
+        <a href="https://github.com/fernandohiroshi" target="_blank" title="Github">
+          <Button variant="outline" size="sm">
+            Github
+          </Button>
+        </a>
+        <a href="https://www.linkedin.com/in/fernando-hiroshi/" target="_blank" title="Linkedin">
+          <Button variant="outline" size="sm">
+            Linkedin
+          </Button>
+        </a>
       </div>
     </Box>
   )
