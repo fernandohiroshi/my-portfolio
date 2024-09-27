@@ -11,7 +11,7 @@ import Skills from '@/components/view/skills/Skills'
 
 export default function Home() {
   return (
-    <main className="mb-8 min-h-screen px-4">
+    <main className="mb-8 min-h-screen scroll-mt-24 px-4" id="home">
       <div className="mx-auto grid max-w-4xl grid-flow-dense grid-cols-12 gap-4">
         <Feature />
         <Avatar />
@@ -24,7 +24,7 @@ export default function Home() {
         <Form />
         <Footer />
       </div>
-      <p className="mt-8 text-center text-sm opacity-80">
+      <p className="mt-8 text-center text-xs opacity-80 lg:text-sm">
         © {`${new Date().getFullYear()}`} Fernando Hiroshi. All rights reserved.
       </p>
     </main>
