@@ -38,7 +38,7 @@ const Form: React.FC = () => {
 
   return (
     <Box className="col-span-12 md:col-span-6">
-      <form onSubmit={sendEmail} className="flex flex-col justify-between gap-3 text-sm" id="contact">
+      <form onSubmit={sendEmail} className="flex scroll-mt-24 flex-col justify-between gap-3 text-sm" id="contact">
         <div>
           <h2 className="mb-2 text-2xl font-medium tracking-widest text-amber-500 md:text-2xl">Contact Me</h2>
           <p className="mb-2 text-justify text-xs text-foreground opacity-80 lg:text-sm">
