@@ -7,8 +7,8 @@ import { Nav } from './nav/Nav'
 
 const Header = () => {
   return (
-    <header className="mx-auto flex max-w-4xl items-center justify-between px-4 py-4 lg:px-0">
-      <Link href="/#" title="Home">
+    <header className="sticky top-0 z-50 mx-auto flex max-w-4xl scroll-mt-24 items-center justify-between bg-background/80 px-4 py-4 backdrop-blur-2xl lg:px-0">
+      <Link href="/#home" title="Logo">
         <Image
           src="https://imgix.cosmicjs.com/503b4b60-749f-11ef-98d9-cbcb72f3073e-logo.png"
           alt="Logo"
