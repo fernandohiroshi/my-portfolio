@@ -9,7 +9,7 @@ type Props = {
 
 const Box = ({ className, ...rest }: Props) => {
   return (
-    <motion.div
+    <motion.section
       className={twMerge(
         'col-span-4 h-full min-h-[18rem] w-full rounded-lg border bg-neutral-100 p-6 dark:bg-transparent',
         className,
