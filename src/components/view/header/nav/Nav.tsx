@@ -36,7 +36,7 @@ export function Nav() {
         className="absolute left-0 top-[120%] z-50 flex w-32 flex-col gap-2 overflow-hidden rounded-lg bg-secondary p-2 text-primary shadow-xl"
       >
         <NavItem link="/#about" setOpen={setOpen} Icon={FaCircleUser} text="About" />
-        <NavItem link="/project" setOpen={setOpen} Icon={IoIosCodeWorking} text="Projects" />
+        <NavItem link="/projects" setOpen={setOpen} Icon={IoIosCodeWorking} text="Projects" />
         <NavItem link="/#contact" setOpen={setOpen} Icon={IoIosMail} text="Contact" />
       </motion.ul>
     </motion.nav>
