@@ -1,12 +1,12 @@
 import About from '@/components/view/about/About'
 import Animation from '@/components/view/animation/Animation'
 import Avatar from '@/components/view/avatar/Avatar'
+import Card3D from '@/components/view/card3d/Card3D'
 import Feature from '@/components/view/feature/Feature'
 import Footer from '@/components/view/footer/Footer'
 import Form from '@/components/view/form/Form'
 import Languages from '@/components/view/languages/Languages'
 import News from '@/components/view/news/News'
-import ProjectButton from '@/components/view/projectButton/ProjectButton'
 import Skills from '@/components/view/skills/Skills'
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
         <Animation />
         <About />
         <Skills />
-        <ProjectButton />
+        <Card3D />
         <Languages />
         <News />
         <Form />

@@ -6,7 +6,7 @@ import React, { useRef } from 'react'
 
 import Box from '../bento/Box'
 
-const ProjectButton = () => {
+const Card3D = () => {
   return (
     <Box className="col-span-12 p-0 md:col-span-4">
       <TiltCard />
@@ -84,4 +84,4 @@ const TiltCard = () => {
   )
 }
 
-export default ProjectButton
+export default Card3D
