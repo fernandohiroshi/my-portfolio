@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title: 'Fernando Hiroshi - Portfolio',
     description:
       'Explore my portfolio to learn about my experience as a web developer, focusing on modern design and functionality.',
-    url: 'https://yourportfolio.com', // Replace with your portfolio URL
+    url: 'https://fernandohiroshi.com',
     siteName: 'Fernando Hiroshi',
     images: [
       {
