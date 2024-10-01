@@ -57,7 +57,7 @@ const Languages = () => {
                 dataKey="browser"
                 type="category"
                 tickLine={false}
-                tickMargin={10}
+                tickMargin={4}
                 axisLine={false}
                 tickFormatter={(value) => chartConfig[value as keyof typeof chartConfig]?.label}
               />
