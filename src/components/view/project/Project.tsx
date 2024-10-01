@@ -23,7 +23,7 @@ const Project = () => {
   return (
     <>
       {projects.map((p, index) => (
-        <Box key={index} className="col-span-12 md:col-span-6">
+        <Box key={index} className="col-span-12 flex flex-col justify-evenly md:col-span-6">
           <Lens
             hovering={hoveringIndex === index}
             setHovering={(isHovering) => setHoveringIndex(isHovering ? index : null)}
@@ -43,7 +43,7 @@ const Project = () => {
             className="mt-4"
           >
             <div className="flex items-center justify-between">
-              <h2 className="text-2xl">{p.name}</h2>
+              <h2 className="text-base md:text-2xl">{p.name}</h2>
               <div className="flex items-center gap-4">
                 <a href={p.code}>
                   <Button variant="outline" size="sm">
