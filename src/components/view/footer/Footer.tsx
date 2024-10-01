@@ -37,12 +37,16 @@ const Footer = () => {
         </a>
 
         <div className="flex items-center gap-4">
-          <Button size="sm" variant="outline">
-            Instagram
-          </Button>
-          <Button size="sm" variant="outline">
-            Whatsapp
-          </Button>
+          <a href="https://www.instagram.com/fernando_hiroshi/">
+            <Button size="sm" variant="outline">
+              Instagram
+            </Button>
+          </a>
+          <a href="https://wa.me/5545988311915">
+            <Button size="sm" variant="outline">
+              Whatsapp
+            </Button>
+          </a>
         </div>
       </div>
 
