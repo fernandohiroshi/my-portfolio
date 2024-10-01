@@ -12,8 +12,8 @@ const projects = [
   {
     img: 'https://imgix.cosmicjs.com/181e4300-748a-11ef-98d9-cbcb72f3073e-openGraph.jpg',
     name: 'Konbini Code',
-    code: '#',
-    live: 'https://konbini-code.vercel.app/en',
+    code: 'https://github.com/fernandohiroshi/konbini-code',
+    live: 'https://konbinicode.com/',
   },
 ]
 
