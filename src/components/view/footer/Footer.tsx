@@ -22,7 +22,7 @@ const Footer = () => {
 
       <div className="absolute bottom-4 left-4 flex flex-col gap-4">
         <a
-          href="https://konbini-code.vercel.app/en"
+          href="https://konbinicode.com"
           target="_blank"
           className="inline-flex items-center gap-2 text-xl duration-300 ease-in-out hover:font-semibold hover:brightness-150"
         >
