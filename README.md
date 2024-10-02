@@ -2,7 +2,7 @@
 
 This is the repository for my personal portfolio, developed to showcase my skills as a front-end developer. I use modern technologies and best development practices to deliver a high-quality experience.
 
-![Portfolio Preview](https://cdn.cosmicjs.com/06774480-7c8c-11ef-beb8-f3894cda4d77-fernandohiroshiportfolio.png) 
+![Portfolio Preview](https://cdn.cosmicjs.com/c07f4730-80fe-11ef-9257-112b43bd2f70-Macbook-Air-fernandohiroshi.com.png) 
 
 > **Notice**: This project is protected by copyright. Any use or copying of this code without proper authorization is prohibited.
 
@@ -64,6 +64,8 @@ src
 ```
 
 ## Responsiveness
+
+![Portfolio Preview](https://cdn.cosmicjs.com/bc467f80-80fe-11ef-9257-112b43bd2f70-iPhone-13-PRO-fernandohiroshi.com.png) 
 
 The project is fully responsive and works perfectly on:
 
