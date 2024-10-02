@@ -4,7 +4,7 @@ import Box from '../bento/Box'
 
 const Animation = () => {
   return (
-    <Box className="col-span-12 border-none md:col-span-4">
+    <Box className="col-span-12 border-none bg-transparent md:col-span-4">
       <Image
         src="https://imgix.cosmicjs.com/550ac4c0-7613-11ef-beb8-f3894cda4d77-animation.gif"
         alt="Animation Gif"

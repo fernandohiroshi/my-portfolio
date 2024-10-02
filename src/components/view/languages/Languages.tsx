@@ -40,7 +40,7 @@ const chartConfig = {
 
 const Languages = () => {
   return (
-    <Box className="col-span-12 border-none md:col-span-4">
+    <Box className="col-span-12 border-none bg-transparent md:col-span-4">
       <Card>
         <h2 className="text-xl font-medium tracking-widest md:text-2xl">Languages:</h2>
         <CardContent>
