@@ -19,30 +19,20 @@ const News = () => {
 
   const items = [
     {
-      image: 'https://imgix.cosmicjs.com/3da495c0-748a-11ef-98d9-cbcb72f3073e-s1_01.jpg',
-      url: 'https://konbini-code.vercel.app/en',
-      description: 'Konbini Code -  Websites development Services.',
+      image: 'https://imgix.cosmicjs.com/cf2c5c40-8073-11ef-915f-61acd7484848-onebitcode.png',
+      url: 'https://onebitcode.com/',
+      description: "I've started the React Native course at OneBitCode to enhance my skills.",
     },
     {
-      image: 'https://imgix.cosmicjs.com/3da495c0-748a-11ef-98d9-cbcb72f3073e-s1_01.jpg',
-      url: 'https://konbini-code.vercel.app/en',
-      description: 'Konbini Code -  Websites development Services.',
-    },
-    {
-      image: 'https://imgix.cosmicjs.com/3da495c0-748a-11ef-98d9-cbcb72f3073e-s1_01.jpg',
-      url: 'https://konbini-code.vercel.app/en',
-      description: 'Konbini Code -  Websites development Services.',
-    },
-    {
-      image: 'https://imgix.cosmicjs.com/3da495c0-748a-11ef-98d9-cbcb72f3073e-s1_01.jpg',
-      url: 'https://konbini-code.vercel.app/en',
-      description: 'Konbini Code -  Websites development Services.',
+      image: 'https://imgix.cosmicjs.com/6b038fb0-8071-11ef-beb8-f3894cda4d77-nextjs-udemy.jpg',
+      url: 'https://www.udemy.com/course/nextjs-zero-ao-avancado',
+      description: 'Completed the course: Next.js 14 from zero to advanced.',
     },
   ]
 
   return (
     <Box className="col-span-12 md:col-span-6">
-      <h2 className="text-center text-xl font-medium tracking-widest md:text-2xl">Last Updates</h2>
+      <h2 className="text-center text-xl font-medium tracking-widest md:text-2xl">Last News</h2>
       <Carousel
         plugins={[plugin.current]}
         className="flex h-full w-full flex-col justify-evenly"
