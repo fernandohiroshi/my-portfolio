@@ -6,6 +6,12 @@ This is the repository for my personal portfolio, developed to showcase my skill
 
 > **Notice**: This project is protected by copyright. Any use or copying of this code without proper authorization is prohibited.
 
+To get started, just clone the repository and run `npm install && npm run dev`:
+
+    git clone https://github.com/fernandohiroshi/portfolio.git
+    npm install
+    npm run dev
+
 ## Table of Contents
 1. [Technologies Used](#technologies-used)
 2. [Additional Features](#additional-features)
