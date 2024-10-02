@@ -19,7 +19,7 @@ const News = () => {
 
   const items = [
     {
-      image: 'https://imgix.cosmicjs.com/cf2c5c40-8073-11ef-915f-61acd7484848-onebitcode.png',
+      image: 'https://imgix.cosmicjs.com/3d281af0-808c-11ef-beb8-f3894cda4d77-onebitcode.png',
       url: 'https://onebitcode.com/',
       description: "I've started the React Native course at OneBitCode to enhance my skills.",
     },
