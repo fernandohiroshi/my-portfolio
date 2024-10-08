@@ -10,10 +10,16 @@ import Box from '@/components/view/bento/Box'
 
 const projects = [
   {
-    img: 'https://imgix.cosmicjs.com/181e4300-748a-11ef-98d9-cbcb72f3073e-openGraph.jpg',
+    img: 'https://imgix.cosmicjs.com/b1e6b4b0-80fe-11ef-9257-112b43bd2f70-Macbook-Air-konbinicode.com.png',
     name: 'Konbini Code',
     code: 'https://github.com/fernandohiroshi/konbini-code',
     live: 'https://konbinicode.com/',
+  },
+  {
+    img: 'https://imgix.cosmicjs.com/c07f4730-80fe-11ef-9257-112b43bd2f70-Macbook-Air-fernandohiroshi.com.png',
+    name: 'My Portfolio',
+    code: 'https://github.com/fernandohiroshi/portfolio',
+    live: 'https://fernandohiroshi.com/',
   },
 ]
 
@@ -33,7 +39,7 @@ const Project = () => {
               alt="image"
               width={500}
               height={500}
-              className="h-full w-full rounded-2xl object-cover"
+              className="h-[14rem] w-full rounded-2xl object-cover"
             />
           </Lens>
           <motion.div
